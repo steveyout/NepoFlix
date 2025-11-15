@@ -430,6 +430,7 @@ const Home = () => {
       <QuickSearch isOpen={isQuickSearchOpen} onOpenChange={setIsQuickSearchOpen} />
 
       {/* Popup */}
+      {/*
       {isPopupOpen && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 animate-fadeIn">
           <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 max-w-sm w-full relative text-center shadow-lg animate-slideIn">
@@ -478,6 +479,7 @@ const Home = () => {
           </div>
         </div>
       )}
+      */}
     </div>
   );
 };
